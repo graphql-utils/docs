@@ -1,0 +1,43 @@
+{
+  "private": true,
+  "name": "@graphql-utils/docs",
+  "version": "1.0.0",
+  "description": "Documentation for graphql-utils",
+  "author": "Mohammad Ataei",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/graphql-utils/docs"
+  },
+  "bugs": {
+    "url": "https://github.com/graphql-utils/docs/issues"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs",
+    "format": "prettier --write . && pnpm lint --fix",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
+    "prepare": "husky install",
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,ts,jsx,tsx}": "eslint --fix",
+    "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "2.7.1",
+    "typescript": "^4.8.4",
+    "vite": "^3.1.8",
+    "vitepress": "1.0.0-alpha.26",
+    "vue": "^3.2.41"
+  }
+}
