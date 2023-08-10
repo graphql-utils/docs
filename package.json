@@ -26,19 +26,19 @@
     "*.{js,jsx,ts,tsx,md,html,css}": "prettier --write"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.1.2",
-    "@commitlint/config-conventional": "^17.1.0",
-    "@typescript-eslint/eslint-plugin": "^5.40.0",
-    "@typescript-eslint/parser": "^5.40.0",
-    "eslint": "^8.25.0",
-    "eslint-config-prettier": "^8.5.0",
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3",
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^8.10.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
     "prettier": "2.7.1",
-    "typescript": "^4.8.4",
-    "vite": "^3.1.8",
+    "typescript": "^4.9.5",
+    "vite": "^3.2.7",
     "vitepress": "1.0.0-alpha.26",
-    "vue": "^3.2.41"
+    "vue": "^3.3.4"
   },
   "packageManager": "pnpm@8.6.12"
 }
